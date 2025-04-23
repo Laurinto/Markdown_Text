@@ -115,10 +115,13 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap:2em;
 
+position: relative;
+bottom: 0;
+
 width: calc(100%-6%);
 height: auto;
 padding: 1%;
-margin: 2%;
+margin: 2% 2% 0;
 background: var(--pst-bg);
 color:var(--html-tx);
 
